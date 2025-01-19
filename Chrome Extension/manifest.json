@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Phishing Protection",
+  "version": "1.0",
+  "description": "Detects phishing threats in emails.",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["http://127.0.0.1/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
