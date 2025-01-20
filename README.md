@@ -1,5 +1,6 @@
 # Phishing-Email-Detector
 This repository contains a machine learning model designed to classify emails as phishing or legitimate. The model is integrated with a Chrome extension to provide real-time phishing detection within the Gmail web interface, using a chrome extension.
+**I made this project in continution to my Submission in the Hack-o-mania Hackathon Competition held during the TechFest 2024 of IIT Ropar, where I secured first prize.**
 
 # Overview
 Phishing attacks are deceptive attempts to obtain sensitive information by masquerading as trustworthy communications. Most People just open their emails and tend to download all the attachments directly, thus falling victims to phishing attacks. This project aims to mitigate such threats by employing a machine learning model that analyzes email content to detect phishing attempts. The model is accessible through a Chrome extension, allowing users to assess emails directly within Gmail.
